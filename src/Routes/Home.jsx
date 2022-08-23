@@ -1,25 +1,13 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState } from 'react';
 import Movie from '../Components/Movie';
 import axios from 'axios';
 import styles from "../Styles/Home.module.css";
-import Lottie from 'lottie-react';
-import Animation from './Loading';
 
 function Home() {
 
   const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(true);
-  // const container = useRef();
-  // useEffect(()=>{
-  //   Lottie.loadAnimation({
-  //     container : container.current,
-  //     renderer : 'svg',
-  //     loop : false,
-  //     autoplay : true,
-  //     animationData : animation,
 
-  //   });
-  // }, [])
 
   useEffect(()=>{
     axios.get("https://yts.mx/api/v2/list_movies.json?minimum_rating=8.8&sort_by=year")
@@ -37,10 +25,12 @@ function Home() {
   return (
     <div className={styles.container}>
         {loading?
+        <div id = {styles.loading}>
+          <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_pjulrn8x.json" background="#EFF3F7" speed="1.5" loop autoplay></lottie-player>
+        </div>
 
-        <div className={styles.loader}>
-          <Animation />
-        </div>:
+        
+        :
 
         <div className={styles.movies}>
           {movies.map((movie) => (

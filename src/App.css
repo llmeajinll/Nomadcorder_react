@@ -1,11 +1,22 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+/* @font-face {
+  font-family: death;
+  src: url(./Resources/deathnote.ttf);
+}
+
+@font-face{
+  font-family: cookie;
+  src: url(./Resources/CookieRun.ttf)
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -1,3 +1,14 @@
+ div{
+  font-family: cookie;
+ }
+ 
+ #loading{
+    text-align: center;
+    margin-top: 150px;
+    height: 50vh;
+
+ }
+ 
  .container {
     height: 100%;
     display: flex;
