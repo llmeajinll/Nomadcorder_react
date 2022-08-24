@@ -26,13 +26,13 @@ function Home() {
     <div className={styles.container}>
         {loading?
         <div id = {styles.loading}>
-          <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_pjulrn8x.json" background="#EFF3F7" speed="1.5" loop autoplay></lottie-player>
+          <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_pjulrn8x.json" background="#000000" speed="1.5" loop autoplay></lottie-player>
         </div>
 
         
         :
-
         <div className={styles.movies}>
+        <div id = {styles.bigtitle}>Movie Introduction</div>
           {movies.map((movie) => (
             <Movie
               key={movie.id}
@@ -45,6 +45,7 @@ function Home() {
             />
           ))}
         </div>
+
       }
 
 

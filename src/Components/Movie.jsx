@@ -6,8 +6,10 @@ import PropTypes from "prop-types";
 function Movie({id, coverImg, title, summary, genres}) {
   
     return (
-      
+    <div>
+  
     <div className={styles.movie}>
+      
       <img src={coverImg} alt={title} className={styles.movie__img} />
       <div>
         <h2 className={styles.movie__title}>
@@ -20,6 +22,7 @@ function Movie({id, coverImg, title, summary, genres}) {
           ))}
         </ul>
       </div>
+    </div>
     </div>
   );
 }

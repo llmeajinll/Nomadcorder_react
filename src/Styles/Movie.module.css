@@ -3,31 +3,30 @@
   src: url(../Resources/deathnote.ttf);
 }
 
-@font-face{
-  font-family: cookie;
-  src: url(../Resources/CookieRun.ttf)
-}
-
 .movie {
-    background-color: white;
+    background-color: black;
     margin-bottom: 70px;
+    margin-top: 100px;
     font-weight: 300;
-    font-family: cookie;
-    padding: 20px;
-    border-radius: 5px;
-    color: #adaeb9;
+    /* font-family: cookie; */
+    padding: 50px 50px;
+    border-radius: 3px;
+    /* color: #adaeb9; */
+    color: white;
     display: grid;
     grid-template-columns: minmax(150px, 1fr) 2fr;
     grid-gap: 20px;
     text-decoration: none;
     color: inherit;
-    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
-      0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+    border : solid white 0.1px;
+    /* height: 450px; */
+    /* box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+      0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025); */
   }
   
   .movie__img {
     position: relative;
-    top: -50px;
+    top: 85px;
     max-width: 150px;
     width: 100%;
     margin-right: 30px;
@@ -40,12 +39,14 @@
     margin: 0;
     font-weight: 300;
     text-decoration: none;
+
   }
   
   .movie__title a {
     margin-bottom: 5px;
-    font-size: 24px;
-    color: #2c2c2c;
+    font-size: 2.5rem;
+    /* color: #2c2c2c; */
+    color : white;
     text-decoration: none;
   }
   
@@ -61,5 +62,6 @@
   .movie__genres li,
   .movie__year {
     margin-right: 10px;
-    font-size: 14px;
+    margin-top:20px;
+    font-size: 1.5rem;
   }

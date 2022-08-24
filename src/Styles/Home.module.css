@@ -1,5 +1,8 @@
  div{
-  font-family: cookie;
+  font-family: death;
+  font-size: 2rem;
+  color: white;
+  background-color: black;
  }
  
  #loading{
@@ -9,6 +12,15 @@
 
  }
  
+ #bigtitle{
+    position: absolute;
+    /* text-align: center; */
+    font-size:4rem;
+    left: 50%;
+    top: 80px;
+    transform: translate(-50%, -50%);
+ }
+
  .container {
     height: 100%;
     display: flex;
