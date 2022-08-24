@@ -26,7 +26,7 @@ function Home() {
     <div className={styles.container}>
         {loading?
         <div id = {styles.loading}>
-          <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_pjulrn8x.json" background="#000000" speed="1.5" loop autoplay></lottie-player>
+          <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_0fvcgy9k.json" background="#000000" speed="1.5" style={{width:"500px"}} loop autoplay></lottie-player>
         </div>
 
         

@@ -7,8 +7,9 @@
  
  #loading{
     text-align: center;
-    margin-top: 150px;
-    height: 50vh;
+    /* margin-top: 150px; */
+    height: 100vh;
+    background-color: black;
 
  }
  

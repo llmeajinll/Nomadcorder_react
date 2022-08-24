@@ -1,7 +1,6 @@
 import axios from 'axios';
 import React , { useEffect, useState }from 'react';
 import { useParams } from "react-router-dom";
-import styles from '../Styles/Home.module.css';
 import style from '../Styles/Detail.module.css';
 import logo from '../Resources/logo.png';
 import deco from '../Resources/deco.png';
@@ -27,8 +26,8 @@ function Detail() {
     <div>
       {loading 
       ? (        
-        <div id={styles.loading}>
-          <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_pjulrn8x.json" background="#000000" speed="1.5" loop autoplay></lottie-player>
+        <div id={style.loading}>
+          <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_0fvcgy9k.json" background="#000000" speed="1.5" style={{width:"500px"}} loop autoplay></lottie-player>
         </div>)
       :(
         <div id={style.background}>
