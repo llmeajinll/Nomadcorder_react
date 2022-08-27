@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nomad_react/static/css/main.f31335a4.css",
+    "main.js": "/nomad_react/static/js/main.861f1927.js",
+    "static/media/deco.png": "/nomad_react/static/media/deco.29a960aa67cc186115ae.png",
+    "static/media/logo.png": "/nomad_react/static/media/logo.0b96ebe4df7a1d84464f.png",
+    "static/media/deathnote.ttf": "/nomad_react/static/media/deathnote.f954883fa4f76cf49928.ttf",
+    "index.html": "/nomad_react/index.html",
+    "main.f31335a4.css.map": "/nomad_react/static/css/main.f31335a4.css.map",
+    "main.861f1927.js.map": "/nomad_react/static/js/main.861f1927.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f31335a4.css",
+    "static/js/main.861f1927.js"
+  ]
+}
